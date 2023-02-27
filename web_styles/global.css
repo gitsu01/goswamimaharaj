@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Kavoon&family=Poppins:wght@200;300;400;500;700&display=swap');
+
+
+:root{
+    --color-primary: #7C73E6;
+    --color-brand: #F4C430;
+    --color-secondary: #C4C1E0;
+    --color-white: #FAFAFA;
+    --color-alert: #FEFBE9;
+    --color-subup: #909090;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+    color: #000;
+}
+
+.font_kav {
+    font-family: 'Kavoon', cursive;
+}
+
+.font_gran {
+    font-family: 'Grand Hotel', cursive;
+}
+
+.font_pop {
+    font-family: 'Poppins', sans-serif;
+}
+
+.cus_container {
+    margin: 0 auto;
+    width: 94vw;
+    max-width: 1196px;
+}
+
+body {
+    background-color: var(--color-white);
+}
+
+.col_pri{
+    color: var(--color-primary);
+}
+
+.butt_fill{
+    background-color: var(--color-primary) !important;
+    color: var(--color-white) !important;
+    border: 2px solid var(--color-primary) !important;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25) !important;
+    padding: 6px 25px !important;
+    transition: .3s ease-in !important;
+}
+
+.butt_fill:hover{
+    background-color: var(--color-white) !important;
+    color: var(--color-primary) !important;
+}
+
+
+
+/* NAVBAR */
+.cus_logo{
+    color: var(--color-brand);
+    font-size: 34px;
+    line-height: 46px;
+    letter-spacing: 0.04em;
+    /* text-decoration-line: underline; */
+    text-shadow: 0px 1px 2px rgba(244, 196, 48, 0.2);
+}
+
+.cus_nav{
+    background: var(--color-white) !important;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    min-height: 80px !important;
+}
+
+.nav-link{
+    filter: drop-shadow(0px 1px 1px var(--color-secondary));
+    color: var(--color-secondary) !important;
+    transition: all .3s ease-in-out;
+}
+
+.nav-link:hover{
+    color: var(--color-primary) !important;
+}
+
+.nav-link.active{
+    color: var(--color-primary) !important;
+}
+
+.cus_btn{
+    border: 2px solid #7C73E6 !important;
+    padding: 6px 25px !important;
+    letter-spacing: 0.04em;
+    filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.25)) !important;
+    transition: .3s ease-in !important;
+}
+
+.btn-cus-butt {
+    --bs-btn-color: var(--color-primary) !important;
+    --bs-btn-bg: var(--color-white) !important;
+    --bs-btn-border-color: var(--color-primary) !important;
+    --bs-btn-border-radius: 0 !important;
+}
+
+.btn-cus-butt:hover{
+    color: var(--color-white) !important;
+    background-color: var(--color-primary) !important;
+}
+
+/* Heading */
+.heading{
+    display: inline-block;
+    background: var(--color-white);
+    border: 1px solid var(--color-primary);
+    box-shadow: 2px 0px 4px var(--color-primary);
+    padding: 0.5em 1.5em;
+    letter-spacing: 0.03em;
+}
+.heading .back_div{
+    position: absolute;
+    width: 100% ;
+    height: 100% ;
+    top: 10px;
+    left: 10px;
+    z-index: -1 !important;
+    background: var(--color-white);
+    border: 1px solid var(--color-secondary);
+    box-shadow: 0px 2px 10px rgba(196, 193, 224, 0.8);
+}
+
+/* Donate Card  */
+.donate_card{
+    min-height: 120px;
+    height: auto;
+    background-color: var(--color-alert);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    background: #FFFFFF;
+    border-top: 2px solid var(--color-secondary);
+    box-shadow: inset 0px 1px 3px var(--color-secondary);
+}

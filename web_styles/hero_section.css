@@ -1,0 +1,31 @@
+.title_font {
+    width: 519.19px !important;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.03em;
+    color: var(--color-primary);
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.check_card{
+    width: 340px;
+    border: 1px solid var(--color-primary);
+    background-color: var(--color-white);
+    box-shadow: 0px 3px 12px rgba(124, 115, 230, 0.6);
+    border-radius: 10px;
+    padding: 20px 15px;
+}
+
+.input-group{
+    border: 1px solid var(--color-secondary) !important;
+    border-radius: 7px;
+    box-shadow: 0px 1px 2px var(--color-secondary);
+}
+
+.hero_carousel{
+    height: 400px !important;
+    box-shadow: 0px 2px 4px #C4C1E0;
+    border-radius: 10px;
+}
+
+
